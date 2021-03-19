@@ -12,7 +12,7 @@ import NewContactForm from '../NewContactForm';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLaptopCode, faMoneyCheckAlt } from '@fortawesome/free-solid-svg-icons'
 
-import "../../styles/new-home.scss";
+import "../../styles/new-home.css";
 
 const useStyles = makeStyles(theme => ({
   "@global": {

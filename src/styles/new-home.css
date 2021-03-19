@@ -1,6 +1,5 @@
 /* Animations */
 
-// Title animation
 @keyframes title-fade-in {
   from {
     opacity: 0;
@@ -17,7 +16,6 @@ input, textarea {
   font-family: 'Cabin';
 }
 
-// Title Wrapper styles
 .title-wrapper {
   margin-top: 35px;
 }
@@ -34,26 +32,7 @@ input, textarea {
   }
 }
 
-// Main block of styles
-
-// * {
-//   margin: 0;
-//   padding: 0;
-//   box-sizing: border-box;
-// }
-
-// html, body {
-//   width: 100%;
-//   height: 100%;
-// }
-
 .main-div {
-  background: linear-gradient(270deg, #b0f3e1, #ffffff, #fce1ff, #ffffff, #c4ffff, #ffffff);
-  background-size: 800% 800%;
-
-  -webkit-animation: AnimationName 17.5s ease infinite;
-  -moz-animation: AnimationName 17.5s ease infinite;
-  animation: AnimationName 17.5s ease infinite;
 
   position: absolute;
   top: 0;
@@ -100,7 +79,6 @@ input, textarea {
   display: flex;
   justify-content: center;
   margin-top: 15px;
-  // margin-bottom: 50px;
 }
 
 .centered-content {
@@ -116,29 +94,18 @@ input, textarea {
   justify-content: center;
   align-content: center;
   margin-top: 50px;
+}
 
-  .panel-text {
-    text-align: center;
-    font-size: 1.5rem;
-    height: 80%;
+.panel-text {
+  text-align: center;
+  font-size: 1.5rem;
+  height: 80%;
+}
 
-    .panel-text-title {
-      font-weight: bold;
-      display: inline-block;
-      margin-bottom: 10px;
-    }
-  }
-
-  .side-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .font-awesome {
-    font-size: 10rem;
-    color: #3b3b3b;
-  }
+.panel-text-title {
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 10px;
 }
 
 .form-wrapper {
@@ -148,20 +115,29 @@ input, textarea {
   justify-content: center;
 }
 
-// Updates upon screen width below 870px
+.side-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.font-awesome {
+  font-size: 10rem;
+  color: #3b3b3b;
+}
+
 @media screen and (max-width: 870px) {
   .new-home-grid1 {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
+  }
 
-    .side-section {
-      display: flex;
-      justify-content: center;
-    }
+  .side-section {
+    display: flex;
+    justify-content: center;
   }
 }
 
-// Updates upon screen width below 700px
 @media screen and (max-width: 700px) {
 
   .main-title {
@@ -171,13 +147,13 @@ input, textarea {
   .new-home-grid1 {
     justify-content: left;
     width: 100%;
+  }
 
-    .side-section {
-      display: none;
-    }
-    
-    .panel-icon {
-      display: none;
-    }
+  .side-section {
+    display: none;
+  }
+
+  .panel-icon {
+    display: none;
   }
 }

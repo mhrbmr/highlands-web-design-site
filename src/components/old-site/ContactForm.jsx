@@ -4,7 +4,7 @@ import Button from "@material-ui/core/Button";
 import {toast} from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 
-import '../styles/contact-form.scss'
+import '../styles/contact-form.css'
 
 toast.configure() 
 

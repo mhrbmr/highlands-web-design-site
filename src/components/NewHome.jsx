@@ -9,7 +9,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLaptopCode, faMoneyCheckAlt } from '@fortawesome/free-solid-svg-icons'
 import useStyles from "./HomeUseStyles"
 
-import "../styles/new-home.scss"
+import "../styles/new-home.css"
 
 export default function NewHome() {
   const classes = useStyles()
@@ -77,7 +77,7 @@ export default function NewHome() {
             <div className="new-home-grid1" id="why-us">
               <div className="panel-text">
                 <span className="panel-text-title">
-                  Professional Development
+                  Why Us?
                 </span><br/>
                 We take care of design, coding, hosting, and mobile browser
                 optimization. Contact us today for a free consultation.

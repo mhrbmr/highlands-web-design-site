@@ -15,7 +15,7 @@ import ReactImageAppear from 'react-image-appear';
 import codeImg from "../images/code.jpg";
 import moneyImg from "../images/money.jpg";
 
-import "../styles/new-home.scss";
+import "../styles/new-home.css";
 
 function Copyright() {
   return (

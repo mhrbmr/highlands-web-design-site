@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import emailjs from 'emailjs-com'
 import Button from "@material-ui/core/Button";
 
-import '../styles/contact-form.scss'
+import '../styles/contact-form.css'
 
 export default function ContactForm() {
 
